@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='en' class=''>
+
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+        <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+        <style>
+            body { 
+                padding-top: 90px;
+                position: relative;
+                background-color: #f8f9fa;
+            }
+            
+            .img-thumbnail {
+                margin-bottom: 20px !important;
+            }
+            
+            #section1 {
+                padding-top: 130px;
+                margin-top:-130px;
+            }
+            
+            #section2 {
+                margin-bottom:30px;
+                padding-top: 140px;
+                margin-top:-140px;
+            }
+            
+            hr {
+                display: block;
+                position: relative;
+                padding: 0;
+                margin: 8px auto;
+                height: 0;
+                width: 100%;
+                max-height: 0;
+                font-size: 1px;
+                line-height: 0;
+                clear: both;
+                border: none;
+                border-top: 1px solid #aaaaaa;
+                border-bottom: 1px solid #ffffff;
+                margin-bottom: 20px;
+            }
+            
+            .fa {
+                padding: 50px;
+                font-size: 50px;
+                color: grey;
+            }
+          </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <a href="https://www.freecodecamp.org/nimbus117" class="navbar-brand" target="_blank">nimbus117</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#section1" class="nav-link">About</a>
+                    <li class="navbar-item"><a href="#section2" class="nav-link">Portfolio</a>
+                    <li class="navbar-item"><a href="#section3" class="nav-link">Contact</a>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="jumbotron jumbotron-fluid" id="section1">
+            <div class="container">
+                <h2 class="text-center">About</h2>
+                <hr>
+                <h6 class="text-center">Sysadmin beginning to retrain as a developer. Working through freecodecamp.org and hopefully the codeclan.com 16 week course in the future!</h6>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <h2 class="text-center">Portfolio</h2>
+            <hr>
+            <div class="row" id="section2">
+
+
+
+                <div class="col-sm-6 col-lg-4">
+                    <a data-toggle="modal" href="#myModal"><img class="img-fluid img-thumbnail" src="/images/fcc-tribute-page.PNG" alt="My freeCodeCamp tribute page"></a>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Build a Tribute Page</h5>
+                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="img-fluid img-thumbnail" src="/images/fcc-tribute-page.PNG" alt="My freeCodeCamp tribute page">
+                                    <p>My take on the first <a href="https://www.freecodecamp.org/challenges/build-a-tribute-page" target="_blank">freeCodeCamp </a>basic front end development project. I built a copy of the example to understand how it was done then added a carousel for the images and some buttons to change the theme.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="https://codepen.io/nimbus117/full/bvxgmO/" class="btn btn-primary" role="button" target="_blank">Visit Page</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/oldblog.PNG" alt="My old blog"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/github.PNG" alt="My GitHub page"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/psgallery.PNG" alt="My powershell module"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/placeholder.PNG" alt="Placeholder"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/placeholder.PNG" alt="Placeholder"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/placeholder.PNG" alt="Placeholder"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/placeholder.PNG" alt="Placeholder"></div>
+                <div class="col-sm-6 col-lg-4"><img class="img-fluid img-thumbnail" src="/images/placeholder.PNG" alt="Placeholder"></div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="section3">
+            <div class="container">
+                <h2 class="text-center">Contact</h2>
+                <hr>
+                <div class="text-center">
+                    <a href="https://twitter.com/nimbus_117" class="fa fa-twitter" target="_blank"></a>
+                    <a href="mailto:mail@nimbus117.co.uk" class="fa fa-envelope"></a>
+                    <a href="https://github.com/nimbus117" class="fa fa-github" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <footer class="text-center"><p>Coded by <a href="https://www.freecodecamp.org/nimbus117" target="_blank">nimbus117</a></p></footer>
+    </body>
+</html>
