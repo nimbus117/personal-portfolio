@@ -19,6 +19,10 @@ body {
   margin-top:-140px;
 }
 
+#section3 {
+  padding-top: 35px;
+}
+
 hr {
    display: block;
    position: relative;
