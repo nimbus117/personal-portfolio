@@ -45,3 +45,7 @@ hr {
   font-size: 50px;
   color: grey;
 }
+
+.modal-content {
+  background-color: #f8f9fa;
+}
