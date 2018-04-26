@@ -43,7 +43,12 @@ hr {
 .fa {
   padding: 50px;
   font-size: 50px;
-  color: grey;
+  color: gray;
+}
+
+.fa:hover {
+  color: darkgray;
+  text-decoration: none;
 }
 
 .modal-content {
