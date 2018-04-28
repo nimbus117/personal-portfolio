@@ -12,7 +12,7 @@
   <title>nimbus117</title>
   <link rel="shortcut icon" href="/images/favicon.ico" />
 
-  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/css/bootstrap.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -42,18 +42,24 @@
 
   <div class="jumbotron jumbotron-fluid" id="section1">
     <div class="container">
-      <h2 class="text-center">About</h2>
-      <hr>
-      <h6 class="text-center">Sysadmin beginning to retrain as a developer. Working through freecodecamp.org and will soon be starting the codeclan.com 16 week
-        software development course!</h6>
-      <p class="text-center">This site is an ongoing project and will hopefully evolve as I do.</p>
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="images/logo.png" class="img-fluid mx-auto d-block">
+        </div>
+        <div class="col-md-8">
+          <h5 class="text-center">I'm a Sysadmin beginning to retrain as a developer. Currently working through freecodecamp.org and will soon be
+            starting the codeclan.com 16 week software development course!</h5>
+          <br>
+          <p class="text-center">This site is an ongoing project and will hopefully evolve as I do.</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="section2">
     <h2 class="text-center">Portfolio</h2>
     <hr>
-    <div class="row" id="section2">
+    <div class="row">
 
       <!-- pages here -->
 
@@ -72,8 +78,8 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/fcc-local-weather.png" alt="freeCodeCamp local weather">
-                <strong>26/04/2018</strong>
-                <p>Second of the 
+                <p>
+                  <strong>26/04/2018</strong> - Second of the
                   <a href="https://www.freecodecamp.org/challenges/show-the-local-weather" target="_blank">freeCodeCamp </a>intermediate front end development projects.</p>
               </div>
               <div class="modal-footer">
@@ -98,8 +104,8 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/fcc-quote-machine.png" alt="freeCodeCamp quote machine">
-                <strong>24/04/2018</strong>
-                <p>First of the 
+                <p>
+                  <strong>24/04/2018</strong> - First of the
                   <a href="https://www.freecodecamp.org/challenges/build-a-random-quote-machine" target="_blank">freeCodeCamp </a>intermediate front end development projects.</p>
               </div>
               <div class="modal-footer">
@@ -124,8 +130,8 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/fcc-personal-portfolio.png" alt="freeCodeCamp persoanl portfolio">
-                <strong>06/04/2018</strong>
-                <p>The second
+                <p>
+                  <strong>06/04/2018</strong> - The second
                   <a href="https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage" target="_blank">freeCodeCamp </a>basic front end development project. Started from scratch this time after watching
                   <a href="https://scrimba.com/g/gbootstrap4" target="_blank">these</a> awesome videos on bootstrap.</p>
               </div>
@@ -151,8 +157,8 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/fcc-tribute-page.png" alt="freeCodeCamp tribute page">
-                <strong>05/04/2018</strong>
-                <p>My take on the first
+                <p>
+                  <strong>05/04/2018</strong> - My take on the first
                   <a href="https://www.freecodecamp.org/challenges/build-a-tribute-page" target="_blank">freeCodeCamp </a>basic front end development project. I didn't really know what I was doing here so built
                   a copy of the example to understand how it was done then added a carousel for the images and some buttons
                   to change the theme.</p>
@@ -179,9 +185,10 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/psgallery.png" alt="powershell module">
-                <strong>29/03/2018</strong>
-                <p>This is a PowerShell module I wrote and published on the PowerShell Gallery. It's main use is to run windows update on multiple remote computers in a controlled fashion. Anything
-                  to speed up manually patching at 3:00am.</p>
+                <p>
+                  <strong>29/03/2018</strong> - This is a PowerShell module I wrote and published on the PowerShell Gallery. It's
+                  main use is to run windows update on multiple remote computers in a controlled fashion. Anything to speed
+                  up manually patching at 3:00am.</p>
               </div>
               <div class="modal-footer">
                 <a href="https://www.powershellgallery.com/packages/zWindowsUpdate/" class="btn btn-dark" role="button" target="_blank">Visit Page</a>
@@ -205,8 +212,8 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/oldblog.png" alt="old blog">
-                <strong>06/07/2015</strong>
-                <p>My first go at building a blog a few years ago. I built it using
+                <p>
+                  <strong>06/07/2015</strong> - My first go at building a blog a few years ago. I built it using
                   <a href="https://jekyllrb.com/" target="_blank">jekyll</a> and like this page it's hosted in AWS S3.</p>
               </div>
               <div class="modal-footer">
@@ -231,9 +238,9 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/placeholder.png" alt="placeholder">
-                <strong>01/01/1970</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <p>
+                  <strong>01/01/1970</strong> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
               </div>
               <div class="modal-footer">
                 <a href="" class="btn btn-dark" role="button" target="_blank">Visit Page</a>
@@ -257,9 +264,9 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/placeholder.png" alt="placeholder">
-                <strong>01/01/1970</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <p>
+                  <strong>01/01/1970</strong> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
               </div>
               <div class="modal-footer">
                 <a href="" class="btn btn-dark" role="button" target="_blank">Visit Page</a>
@@ -283,9 +290,9 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/placeholder.png" alt="placeholder">
-                <strong>01/01/1970</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <p>
+                  <strong>01/01/1970</strong> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
               </div>
               <div class="modal-footer">
                 <a href="" class="btn btn-dark" role="button" target="_blank">Visit Page</a>
@@ -309,9 +316,9 @@
               </div>
               <div class="modal-body">
                 <img class="img-fluid img-thumbnail" src="/images/placeholder.png" alt="placeholder">
-                <strong>01/01/1970</strong>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                <p>
+                  <strong>01/01/1970</strong> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
               </div>
               <div class="modal-footer">
                 <a href="" class="btn btn-dark" role="button" target="_blank">Visit Page</a>
@@ -325,8 +332,6 @@
 
   <div class="jumbotron jumbotron-fluid" id="section3">
     <div class="container">
-      <h2 class="text-center">Contact</h2>
-      <hr>
       <div class="text-center">
         <a href="https://twitter.com/nimbus_117" class="fa fa-twitter" target="_blank"></a>
         <a href="mailto:mail@nimbus117.co.uk" class="fa fa-envelope"></a>
@@ -335,13 +340,9 @@
     </div>
   </div>
 
-  <footer class="text-center">
-    <p>Coded by<a href="http://www.nimbus117.co.uk"> nimbus117</p>
-  </footer>
-
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.min.js'></script>
   <script src="js/index.js"></script>
 </body>
 
