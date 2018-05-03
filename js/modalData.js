@@ -10,11 +10,19 @@
 */
 var modalData = [
   {
-    "title": "Show the local weather",
+    "title": "Build a Wikipedia Viewer",
+    "date": "02/05/2018",
+    "image": "/images/fcc-wiki-viewer.png",
+    "alt": "freeCodeCamp wikipedia viewer",
+    "caption": "The third <a href='https://www.freecodecamp.org/challenges/build-a-wikipedia-viewer' target='_blank'>freeCodeCamp</a> intermediate front end development project. I had a lot of fun with JavaScript and gradients on this one.",
+    "link": "https://codepen.io/nimbus117/full/qYqRWW/"
+  },
+  {
+    "title": "Show the Local Weather",
     "date": "26/04/2018",
     "image": "/images/fcc-local-weather.png",
     "alt": "freeCodeCamp local weather",
-    "caption": "Second of the<a href='https://www.freecodecamp.org/challenges/show-the-local-weather' target='_blank'> freeCodeCamp </a>intermediate front end development projects.",
+    "caption": "Second of the <a href='https://www.freecodecamp.org/challenges/show-the-local-weather' target='_blank'>freeCodeCamp</a> intermediate front end development projects.",
     "link": "https://codepen.io/nimbus117/full/MGebmP/"
   },
   {
@@ -22,7 +30,7 @@ var modalData = [
     "date": "24/04/2018",
     "image": "/images/fcc-quote-machine.png",
     "alt": "freeCodeCamp quote machine",
-    "caption": "First of the<a href='https://www.freecodecamp.org/challenges/build-a-random-quote-machine' target='_blank'> freeCodeCamp </a>intermediate front end development projects.",
+    "caption": "First of the <a href='https://www.freecodecamp.org/challenges/build-a-random-quote-machine' target='_blank'>freeCodeCamp</a> intermediate front end development projects.",
     "link": "https://codepen.io/nimbus117/full/LmNyZV/"
   },
   {
@@ -30,7 +38,7 @@ var modalData = [
     "date": "06/04/2018",
     "image": "/images/fcc-personal-portfolio.png",
     "alt": "freeCodeCamp personal portfolio",
-    "caption": "The second<a href='https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage' target='_blank'> freeCodeCamp </a>basic front end development project. Started from scratch this time after watching<a href='https://scrimba.com/g/gbootstrap4' target='_blank'> these </a>awesome videos on bootstrap.",
+    "caption": "The second <a href='https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage' target='_blank'>freeCodeCamp</a> basic front end development project. Started from scratch this time after watching <a href='https://scrimba.com/g/gbootstrap4' target='_blank'>these</a> awesome videos on bootstrap.",
     "link": "https://codepen.io/nimbus117/full/zWmqNj/"
   },
   {
@@ -38,7 +46,7 @@ var modalData = [
     "date": "05/04/2018",
     "image": "/images/fcc-tribute-page.png",
     "alt": "freeCodeCamp tribute page",
-    "caption": "My take on the first<a href='https://www.freecodecamp.org/challenges/build-a-tribute-page' target='_blank'> freeCodeCamp </a>basic front end development project. I didn't really know what I was doing here so built a copy of the example to understand how it was done then added a carousel for the images and some buttons to change the theme.",
+    "caption": "My take on the first <a href='https://www.freecodecamp.org/challenges/build-a-tribute-page' target='_blank'>freeCodeCamp</a> basic front end development project. I didn't really know what I was doing here so built a copy of the example to understand how it was done then added a carousel for the images and some buttons to change the theme.",
     "link": "https://codepen.io/nimbus117/full/bvxgmO/"
   },
   {
@@ -54,7 +62,7 @@ var modalData = [
     "date": "06/07/2015",
     "image": "/images/oldblog.png",
     "alt": "my old blog",
-    "caption": "My first go at building a blog a few years ago. I built it using<a href='https://jekyllrb.com/' target='_blank'> jekyll </a>and like this page it's hosted in AWS S3.",
+    "caption": "My first go at building a blog a few years ago. I built it using <a href='https://jekyllrb.com/' target='_blank'>jekyll</a> and like this page it's hosted in AWS S3.",
     "link": "/old-blog"
   },
   {

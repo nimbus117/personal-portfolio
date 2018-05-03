@@ -1,6 +1,22 @@
 body { 
   position: relative;
-  background-color: #f8f9fa;
+  background-color: #AED4FB;
+}
+
+.jumbotron, 
+.card-header, .modal-header {
+  background-color: #003654;
+  color: #F1F1E6;
+}
+/*.card-footer, .modal-footer*/
+.navbar {
+  background-color: #003654;
+}
+
+.test {
+  background-color: #AED4FB;
+  background-color: #003654;
+  background-color: #F1F1E6;
 }
 
 hr {
@@ -20,23 +36,44 @@ hr {
   margin-bottom: 20px;
 }
 
-.img-thumbnail {
+.card {
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
   margin-bottom: 20px;
+}
+
+.modal-content, .card {
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.modal-header, .card-header {
+  border-radius: 0px !important;
+}
+
+.modal-body img {
+  margin-bottom: 10px;
+}
+
+#modal-x {
+  color: #F1F1E6;
 }
 
 .fa {
   padding: 50px;
   font-size: 50px;
-  color: gray;
+  color: #AED4FB;
 }
 
 .fa:hover {
-  color: darkgray;
+  color: gray;
   text-decoration: none;
 }
 
-.modal-content {
-  background-color: #f8f9fa;
+.portfolio-card, .portfolio-card:hover {
+  text-decoration: none;
+  color: black;
 }
 
 #section1 {
