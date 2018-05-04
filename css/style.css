@@ -1,22 +1,18 @@
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+html, body {
+  height:100%;
+}
+
 body { 
   position: relative;
-  background-color: #AED4FB;
-}
-
-.jumbotron, 
-.card-header, .modal-header {
-  background-color: #003654;
-  color: #F1F1E6;
-}
-/*.card-footer, .modal-footer*/
-.navbar {
-  background-color: #003654;
-}
-
-.test {
-  background-color: #AED4FB;
-  background-color: #003654;
-  background-color: #F1F1E6;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 hr {
@@ -31,33 +27,42 @@ hr {
   line-height: 0;
   clear: both;
   border: none;
-  border-top: 1px solid #aaaaaa;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #003654;
+  border-bottom: 1px solid #003654;
   margin-bottom: 20px;
+}
+
+.n-d1-t {
+  color: #003654;
+}
+
+.n-d1-b {
+  background-color: #003654;
+}
+
+.n-d2-b {
+  background-color: #FFECCC;
+}
+
+.n-l1-t {
+  color: #AED4FB;
+}
+
+.n-l2-t {
+  color: #F1F1E6;
 }
 
 .card {
-  -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
-  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
   margin-bottom: 20px;
+  border: none;
 }
 
-.modal-content, .card {
+.modal-header, 
+.modal-content, 
+.btn, 
+.img-thumbnail, 
+.card {
   border-radius: 0px;
-  border: 1px solid black;
-}
-
-.modal-header, .card-header {
-  border-radius: 0px !important;
-}
-
-.modal-body img {
-  margin-bottom: 10px;
-}
-
-#modal-x {
-  color: #F1F1E6;
 }
 
 .fa {
@@ -67,17 +72,11 @@ hr {
 }
 
 .fa:hover {
-  color: gray;
   text-decoration: none;
-}
-
-.portfolio-card, .portfolio-card:hover {
-  text-decoration: none;
-  color: black;
 }
 
 #section1 {
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -85,8 +84,31 @@ hr {
   margin-bottom:30px;
   padding-top: 80px;
   margin-top: -80px;
+  min-height: 100%;
 }
 
 #section3 {
   margin-bottom: 0px;
+}
+
+#card-caption {
+  margin: 3px;
+}
+
+#modal-image {
+  margin-bottom: 20px;
+}
+
+/* hover transition only */
+a {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+a:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }

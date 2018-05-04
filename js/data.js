@@ -8,9 +8,9 @@
     "link": ""
   },
 */
-var modalData = [
+var portData = [
   {
-    "title": "Build a Wikipedia Viewer",
+    "title": "Wikipedia Viewer",
     "date": "02/05/2018",
     "image": "/images/fcc-wiki-viewer.png",
     "alt": "freeCodeCamp wikipedia viewer",
@@ -18,7 +18,7 @@ var modalData = [
     "link": "https://codepen.io/nimbus117/full/qYqRWW/"
   },
   {
-    "title": "Show the Local Weather",
+    "title": "Local Weather",
     "date": "26/04/2018",
     "image": "/images/fcc-local-weather.png",
     "alt": "freeCodeCamp local weather",
@@ -26,7 +26,7 @@ var modalData = [
     "link": "https://codepen.io/nimbus117/full/MGebmP/"
   },
   {
-    "title": "Build a Random Quote Machine",
+    "title": "Random Quote Machine",
     "date": "24/04/2018",
     "image": "/images/fcc-quote-machine.png",
     "alt": "freeCodeCamp quote machine",
@@ -34,7 +34,7 @@ var modalData = [
     "link": "https://codepen.io/nimbus117/full/LmNyZV/"
   },
   {
-    "title": "Build a Personal Portfolio Webpage",
+    "title": "Personal Portfolio",
     "date": "06/04/2018",
     "image": "/images/fcc-personal-portfolio.png",
     "alt": "freeCodeCamp personal portfolio",
@@ -42,7 +42,7 @@ var modalData = [
     "link": "https://codepen.io/nimbus117/full/zWmqNj/"
   },
   {
-    "title": "Build a Tribute Page",
+    "title": "Tribute Page",
     "date": "05/04/2018",
     "image": "/images/fcc-tribute-page.png",
     "alt": "freeCodeCamp tribute page",
@@ -50,11 +50,11 @@ var modalData = [
     "link": "https://codepen.io/nimbus117/full/bvxgmO/"
   },
   {
-    "title": "zWindowsUpdate PowerShell Module",
+    "title": "zWindowsUpdate PS Module",
     "date": "29/03/2018",
     "image": "/images/psgallery.png",
     "alt": "powershell module",
-    "caption": "This is a PowerShell module I wrote and published on the PowerShell Gallery. It's main use is to run windows update on multiple remote computers in a controlled fashion. Anything to speed up manually patching at 3:00am.",
+    "caption": "This is a PowerShell module I wrote and published on the PowerShell Gallery. It's main use is to run windows update on multiple remote computers in a controlled fashion. Anything to speed up manually patching at 3:00am!",
     "link": "https://www.powershellgallery.com/packages/zWindowsUpdate/"
   },
   {
@@ -64,6 +64,14 @@ var modalData = [
     "alt": "my old blog",
     "caption": "My first go at building a blog a few years ago. I built it using <a href='https://jekyllrb.com/' target='_blank'>jekyll</a> and like this page it's hosted in AWS S3.",
     "link": "/old-blog"
+  },
+  {
+    "title": "Placeholder",
+    "date": "01/01/1970",
+    "image": "/images/placeholder.png",
+    "alt": "placeholder-image",
+    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
+    "link": "https://www.google.com"
   },
   {
     "title": "Placeholder",
