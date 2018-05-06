@@ -8,7 +8,18 @@
     "link": ""
   },
 */
+
+
+// portfolio data
 var portData = [
+  {
+    "title": "Twitch TV",
+    "date": "06/05/2018",
+    "image": "/images/fcc-twitchtv.png",
+    "alt": "freeCodeCamp twitchtv",
+    "caption": "The last of the <a href='https://www.freecodecamp.org/challenges/use-the-twitchtv-json-api' target='_blank'>freeCodeCamp</a> intermediate front end development projects. Had to get a handle on asynchronous JavaScript callbacks and played around some more with Bootstrap and styling.",
+    "link": "https://codepen.io/nimbus117/full/dezQaQ/"
+  },
   {
     "title": "Wikipedia Viewer",
     "date": "02/05/2018",

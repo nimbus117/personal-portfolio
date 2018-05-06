@@ -9,10 +9,11 @@ html, body {
 
 body { 
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   min-height: 100%;
   overflow: scroll;
   overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 hr {
@@ -66,9 +67,8 @@ hr {
 }
 
 .fa {
-  padding: 50px;
+  margin: 50px;
   font-size: 50px;
-  color: #AED4FB;
 }
 
 .fa:hover {
@@ -97,6 +97,10 @@ hr {
 
 #modal-image {
   margin-bottom: 20px;
+}
+
+#logo {
+  max-height: 200px;
 }
 
 /* hover transition only */
