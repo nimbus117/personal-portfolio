@@ -3,6 +3,13 @@
   background: transparent;
 }
 
+:root {
+  --primary-dark: #003654;
+  --secondary-dark: #FFECCC;
+  --primary-light: #AED4FB;
+  --secondary-light: #F1F1E6;
+}
+
 html, body {
   height:100%;
 }
@@ -10,10 +17,10 @@ html, body {
 body { 
   position: relative;
   font-family: "Roboto", sans-serif;
-  min-height: 100%;
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: scroll;
+  background-color: var(--secondary-dark);
 }
 
 hr {
@@ -28,34 +35,27 @@ hr {
   line-height: 0;
   clear: both;
   border: none;
-  border-top: 1px solid #003654;
-  border-bottom: 1px solid #003654;
+  border-top: 1px solid var(--primary-dark);
+  border-bottom: 1px solid var(--primary-dark);
   margin-bottom: 20px;
 }
 
-.n-d1-t {
-  color: #003654;
+.navbar {
+  background-color: var(--primary-dark);
 }
 
-.n-d1-b {
-  background-color: #003654;
+.navbar span {
+  color: var(--secondary-light);
 }
 
-.n-d2-b {
-  background-color: #FFECCC;
-}
-
-.n-l1-t {
-  color: #AED4FB;
-}
-
-.n-l2-t {
-  color: #F1F1E6;
+.jumbotron {
+  background-color: var(--primary-dark);
 }
 
 .card {
   margin-bottom: 20px;
   border: none;
+  background-color: var(--primary-dark);
 }
 
 .modal-header, 
@@ -66,33 +66,83 @@ hr {
   border-radius: 0px;
 }
 
+.img-thumbnail {
+  background-color: var(--primary-dark);
+  color: var(--secondary-light);
+}
+
 .fa {
+  transition: 0.5s;
   margin: 50px;
   font-size: 50px;
+  color: var(--primary-light);
 }
 
 .fa:hover {
   text-decoration: none;
 }
 
-#section1 {
+.my-btn {
+  transition: 0.5s;
+  background-color: white;
+  padding: 5px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-dark);
+}
+
+.my-btn:hover {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+.modal-header, .modal-header span {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+}
+
+#header-primary {
+  color: var(--primary-light);
+}
+
+#header-secondary {
+  color: var(--secondary-light);
+}
+
+#about {
   padding-top: 50px;
   padding-bottom: 20px;
 }
 
-#section2 {
+#portfolio {
   margin-bottom:30px;
   padding-top: 80px;
   margin-top: -80px;
   min-height: 100%;
 }
 
-#section3 {
+#contact {
   margin-bottom: 0px;
 }
 
 #card-caption {
   margin: 3px;
+}
+
+#card-image {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+#card-image:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 #modal-image {
@@ -101,18 +151,4 @@ hr {
 
 #logo {
   max-height: 200px;
-}
-
-/* hover transition only */
-a {
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
-
-a:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
 }
