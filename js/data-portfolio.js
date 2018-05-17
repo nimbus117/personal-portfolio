@@ -10,10 +10,10 @@
   },
 */
 
-// portfolio data
-var portData = [
+// portfolio content
+var portContent = [
   {
-    "guid": "fdb3fa03-aa08-4d39-88c2-08b0d1d42b2e",
+    "guid": "fdb3fa03",
     "title": "Twitch TV",
     "date": "06/05/2018",
     "image": "/images/fcc-twitchtv.png",
@@ -22,7 +22,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/dezQaQ/"
   },
   {
-    "guid": "c9d7942f-e4b7-46da-8a17-b66e8dc387a6",
+    "guid": "c9d7942f",
     "title": "Wikipedia Viewer",
     "date": "02/05/2018",
     "image": "/images/fcc-wiki-viewer.png",
@@ -31,7 +31,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/qYqRWW/"
   },
   {
-    "guid": "093b1b30-1268-4751-aa8e-854b7e1d67bf",
+    "guid": "093b1b30",
     "title": "Local Weather",
     "date": "26/04/2018",
     "image": "/images/fcc-local-weather.png",
@@ -40,7 +40,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/MGebmP/"
   },
   {
-    "guid": "e4011d44-098d-41ca-b14e-6d0b6f6e7139",
+    "guid": "e4011d44",
     "title": "Random Quote Machine",
     "date": "24/04/2018",
     "image": "/images/fcc-quote-machine.png",
@@ -49,7 +49,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/LmNyZV/"
   },
   {
-    "guid": "17caa23e-8734-4fdf-9025-f3b258a0c1fd",
+    "guid": "17caa23e",
     "title": "Personal Portfolio",
     "date": "06/04/2018",
     "image": "/images/fcc-personal-portfolio.png",
@@ -58,7 +58,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/zWmqNj/"
   },
   {
-    "guid": "427d8d64-2f0f-4186-bccb-a12a88c1cab5",
+    "guid": "427d8d64",
     "title": "Tribute Page",
     "date": "05/04/2018",
     "image": "/images/fcc-tribute-page.png",
@@ -67,7 +67,7 @@ var portData = [
     "link": "https://codepen.io/nimbus117/full/bvxgmO/"
   },
   {
-    "guid": "b579e833-84e6-4145-97be-6dd331cd7788",
+    "guid": "b579e833",
     "title": "zWindowsUpdate PS Module",
     "date": "29/03/2018",
     "image": "/images/psgallery.png",
@@ -76,7 +76,7 @@ var portData = [
     "link": "https://www.powershellgallery.com/packages/zWindowsUpdate/"
   },
   {
-    "guid": "6b0a602f-4703-4dec-96cf-3c81da7075d9",
+    "guid": "6b0a602f",
     "title": "Old Blog",
     "date": "06/07/2015",
     "image": "/images/oldblog.png",
@@ -85,43 +85,7 @@ var portData = [
     "link": "/old-blog"
   },
   {
-    "guid": "6b0ec9f8-ff9b-4940-92c1-b2daa6e46748",
-    "title": "Placeholder",
-    "date": "01/01/1970",
-    "image": "/images/placeholder.png",
-    "alt": "placeholder-image",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "link": "https://www.google.com"
-  },
-  {
-    "guid": "f4ce5d94-3fea-4427-9944-341f7cb8589f",
-    "title": "Placeholder",
-    "date": "01/01/1970",
-    "image": "/images/placeholder.png",
-    "alt": "placeholder-image",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "link": "https://www.google.com"
-  },
-  {
-    "guid": "5221d449-2c74-481b-94a8-9e27edbf96fc",
-    "title": "Placeholder",
-    "date": "01/01/1970",
-    "image": "/images/placeholder.png",
-    "alt": "placeholder-image",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "link": "https://www.google.com"
-  },
-  {
-    "guid": "ac303562-a19e-4ab6-8f8e-a873f661c337",
-    "title": "Placeholder",
-    "date": "01/01/1970",
-    "image": "/images/placeholder.png",
-    "alt": "placeholder-image",
-    "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-    "link": "https://www.google.com"
-  },
-  {
-    "guid": "2e659c38-6762-4637-ab6f-27d7a86eac3c",
+    "guid": "6b0ec9f8",
     "title": "Placeholder",
     "date": "01/01/1970",
     "image": "/images/placeholder.png",

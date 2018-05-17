@@ -8,6 +8,13 @@
   --primary-light: #AED4FB;
   --secondary-dark: #FFECCC;
   --secondary-light: #F1F1E6;
+
+  /*
+  --primary: #002b36;
+  --secondary: #fdf6e3;
+  --grey: #657b83;
+  --blue: #268bd2;
+  */
 }
 
 html, body {
@@ -53,8 +60,7 @@ hr {
 }
 
 .modal-header, 
-.modal-content, 
-.btn, 
+.modal-content,
 .img-thumbnail, 
 .card {
   border-radius: 0px;
@@ -63,10 +69,13 @@ hr {
 .card {
   margin-bottom: 20px;
   border: none;
+}
+
+.pfolio-card {
   background-color: var(--primary-dark);
 }
 
-.card-image-link {
+.card-pfolio-link {
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -82,6 +91,17 @@ hr {
 .card-caption-text {
   margin: 3px;
 }
+
+.card-blog-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-blog-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
 
 .img-thumbnail {
   background-color: var(--primary-dark);
@@ -108,6 +128,12 @@ hr {
 .modal-header, .modal-header span {
   background-color: var(--primary-dark);
   color: var(--primary-light);
+}
+
+.card-header {
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  margin-bottom: 0px;
 }
 
 .modal-image {
@@ -152,6 +178,12 @@ hr {
   padding-top: 80px;
   margin-top: -80px;
   min-height: 100%;
+}
+
+#blog {
+  margin-bottom:30px;
+  padding-top: 80px;
+  margin-top: -80px;
 }
 
 #contact {
