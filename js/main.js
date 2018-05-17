@@ -9,9 +9,7 @@ portContent.forEach(function (item) {
       <div class="card pfolio-card">
         <div class="img-thumbnail">
           <a class="card-pfolio-link" data-toggle="modal" href="#${item.guid}">
-            <img class="img-fluid" 
-                src="${item.image}" 
-                alt="${item.alt}">
+            <img class="img-fluid" src="${item.image}" alt="${item.alt}">
           </a>
           <p class="card-caption-text text-center text-truncate">
             ${item.title}
@@ -19,7 +17,7 @@ portContent.forEach(function (item) {
         </div>
       </div>
       <div id="${item.guid}" class="modal fade">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">${item.title}</h5>
@@ -28,13 +26,9 @@ portContent.forEach(function (item) {
               </button>
             </div>
             <div class="modal-body">
-              <img class="img-thumbnail modal-image" 
-                  src="${item.image}" 
-                  alt="${item.alt}">
+              <img class="img-thumbnail modal-image" src="${item.image}" alt="${item.alt}">
               <p><strong>${item.date}</strong> - ${item.caption}</p>
-              <a role="button" class="my-btn" 
-                href="${item.link}" 
-                target="_blank">Visit Page</a>
+              <a role="button" class="my-btn" href="${item.link}" target="_blank">Visit Page</a>
             </div>
           </div>
         </div>

@@ -83,7 +83,7 @@ hr {
   transition:.5s;
 }
 
-.card-image-link:hover {
+.card-pfolio-link:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
