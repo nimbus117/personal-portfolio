@@ -1,5 +1,48 @@
 modalIds = [];
 
+// generate html for blog cards/modals, uses blogContent from data-blog.js
+var blogCards = "";
+blogContent.forEach(function (item, index) {
+  modalIds.push("#" + item.guid);
+  var paragraphs = "";
+  item.text.forEach(function(paragraph){
+    paragraphs += `<p>${paragraph}</p>`
+  });
+  blogCards += `
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <h5>${("0" + (blogContent.length - index)).slice(-2)} - ${item.title}</h5>
+        </div>
+        <a class="card-blog-link" data-toggle="modal" href="#${item.guid}">
+          <div class="card-body">
+            <p><strong>${item.date}</strong> - ${item.text[0].substring(0,280).trim()}...</p>
+          </div>
+        </a>
+      </div>
+      <div id="${item.guid}" class="modal fade">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">${item.title}</h5>
+              <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p><strong>${item.date}</strong></p>
+              ${paragraphs}
+              <a class="my-btn" data-dismiss="modal" href="#">
+                Close
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+});
+
 // generate html for portfolio cards/modals, uses portContent from data-portfolio.js
 var portCards = "";
 portContent.forEach(function (item) {
@@ -37,48 +80,6 @@ portContent.forEach(function (item) {
   `;
 });
 
-// generate html for blog cards/modals, uses portContent from data-portfolio.js
-var blogCards = "";
-blogContent.forEach(function (item) {
-  modalIds.push("#" + item.guid);
-  var paragraphs = "";
-  item.text.forEach(function(paragraph){
-    paragraphs += `<p>${paragraph}</p>`
-  });
-  blogCards += `
-    <div class="col-lg-6">
-      <div class="card">
-        <div class="card-header">
-          <h5>${item.title}</h5>
-        </div>
-        <a class="card-blog-link" data-toggle="modal" href="#${item.guid}">
-          <div class="card-body">
-            <p>${item.text[0].substring(0,200).trim()}...</p>
-          </div>
-        </a>
-      </div>
-      <div id="${item.guid}" class="modal fade">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">${item.title}</h5>
-              <button type="button" class="close" data-dismiss="modal">
-              <span>&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p><strong>${item.date}</strong></p>
-              ${paragraphs}
-              <a class="my-btn" data-dismiss="modal" href="#">
-                Close
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  `;
-});
 
 $(document).ready(function () {
   // set content of #portfolio-row
@@ -103,8 +104,8 @@ $(document).ready(function () {
   $(".navbar-collapse a").click(function () {
     $(".navbar-collapse").collapse("hide");
   });
-  // link to modal
+  // external link to modal
   if (window.location.hash && modalIds.includes(window.location.hash)) {
-      $(window.location.hash).modal();
+    $(window.location.hash).modal();
   }
 });

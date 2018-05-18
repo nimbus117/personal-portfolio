@@ -110,8 +110,10 @@ hr {
 
 .card-blog-link:hover {
   text-decoration: none;
-  color: black;
-  background-color: var(--primary-light);
+  color: var(--secondary-light);
+  background-color: var(--primary-dark);
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .img-thumbnail {
