@@ -1,14 +1,15 @@
+//  all modal IDs, for external links
 modalIds = [];
 
 // generate html for blog cards/modals, uses blogContent from data-blog.js
-var blogCards = "";
+var blogHtml = "";
 blogContent.forEach(function (item, index) {
   modalIds.push("#" + item.guid);
   var paragraphs = "";
-  item.text.forEach(function(paragraph){
+  item.text.forEach(function (paragraph) {
     paragraphs += `<p>${paragraph}</p>`
   });
-  blogCards += `
+  blogHtml += `
     <div class="col-12">
       <div class="card">
         <div class="card-header">
@@ -16,7 +17,7 @@ blogContent.forEach(function (item, index) {
         </div>
         <a class="card-blog-link" data-toggle="modal" href="#${item.guid}">
           <div class="card-body">
-            <p><strong>${item.date}</strong> - ${item.text[0].substring(0,280).trim()}...</p>
+            <p><strong>${item.date}</strong> - ${item.text[0].substring(0, 280).trim()}...</p>
           </div>
         </a>
       </div>
@@ -44,10 +45,10 @@ blogContent.forEach(function (item, index) {
 });
 
 // generate html for portfolio cards/modals, uses portContent from data-portfolio.js
-var portCards = "";
+var portHtml = "";
 portContent.forEach(function (item) {
   modalIds.push("#" + item.guid);
-  portCards += `
+  portHtml += `
     <div class="col-sm-6 col-lg-4">
       <div class="card pfolio-card">
         <div class="img-thumbnail">
@@ -83,9 +84,9 @@ portContent.forEach(function (item) {
 
 $(document).ready(function () {
   // set content of #portfolio-row
-  document.getElementById("portfolio-row").innerHTML = portCards;
+  document.getElementById("portfolio-row").innerHTML = portHtml;
   // set content of #blog-row
-  document.getElementById("blog-row").innerHTML = blogCards;
+  document.getElementById("blog-row").innerHTML = blogHtml;
   // enable scrollspy
   $("body").scrollspy({ target: ".navbar" })
   // scroll for navbar links
