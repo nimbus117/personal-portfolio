@@ -10,14 +10,14 @@ blogContent.forEach(function (item, index) {
     paragraphs += `<p>${paragraph}</p>`
   });
   blogHtml += `
-    <div class="col-12">
+    <div class="col-lg-6">
       <div class="card">
         <div class="card-header">
           <h5>${("0" + (blogContent.length - index)).slice(-2)} - ${item.title}</h5>
         </div>
         <a class="card-blog-link" data-toggle="modal" href="#${item.guid}">
           <div class="card-body">
-            <p><strong>${item.date}</strong> - ${item.text[0].substring(0, 280).trim()}...</p>
+            <p><strong>${item.date}</strong> - ${item.text[0].substring(0, 150).trim()}...</p>
           </div>
         </a>
       </div>
@@ -33,9 +33,7 @@ blogContent.forEach(function (item, index) {
             <div class="modal-body">
               <p><strong>${item.date}</strong></p>
               ${paragraphs}
-              <a class="my-btn" data-dismiss="modal" href="#">
-                Close
-              </a>
+              <a class="my-btn" data-dismiss="modal" href="#">Close</a>
             </div>
           </div>
         </div>
