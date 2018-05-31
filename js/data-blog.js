@@ -22,7 +22,7 @@ var blogContent = [
       "TOP is open source and completely free! It's a mix of their own content and links to many other free resources and courses. There's also a lot of cross over with the CodeClan pre-course work which I'm hoping will help prepare me. I've only done the first few sections of the Web Development 101 course but there's two things I've really liked about it so far. First, there's such a mix of different material from different sources to read, videos to watch, online courses to do, guides to follow and most importantly it seems to be in a logical order that builds on itself. Secondly, you do a lot of the work on your actual computer. I liked the freeCodeCamp online interface, CodePen is very cool and the Codecademy courses are great but actually setting up your own computer with all the tools needed and doing it yourself is a lot more satisfying than doing it in the browser.",
 			"About a week ago I decided to move away from coding on Windows and installed Ubuntu. I've nothing against windows, in fact I'm a big fan and have predominantly worked with it over my IT career. But, even at this early stage, it was pretty evident that I was better off learning on a *nix platform. I think it was the TOP installing Ruby guide that highlighted just how difficult getting some things running on Windows could be. I'll also be getting a Mac for the CodeClan course so thought it'd be good practice for then.",
 			"I've used *nix systems a bit in the past. My old job gave us all MacBooks and we looked after a mix of Windows and Linux servers in AWS. That was a good few years ago and except for the odd bit here and there I've not heavily used Linux for a while. So I installed the latest Ubuntu desktop version on my laptop (dual boot with Windows 10) and spun up an Ubuntu server virtual machine in my home lab (the Sysadmin in me couldn't resist). It's been a fun week of learning and a lot has come back to me from years ago.",
-			"<img class='img-thumbnail' src='images/htmldog-beginner.png'>",
+			"<img class='img-thumbnail' src='images/htmldog-beginner.png' alt='Screenshot showing a simple web page and the code used to create it'>",
 			"As a way to force myself to do everything using the command line I decided to do all my coding on the Ubuntu server VM. From my laptop I can SSH onto the server, use screen to manage multiple windows and vim as a text editor (vimtutor is a great intro). With the help of this little python command '<code>sudo python3 -m http.server 80</code>' I can run a web server in the current directory and view the page back on my laptop."
     ]
   },
@@ -41,14 +41,3 @@ var blogContent = [
   }
 ];
 
-/*
-  {
-    "guid": "8d524c84",
-    "title": "Learning to Walk",
-    "date": "00/00/0000",
-    "text": [
-      "",
-      ""
-    ]
-  },
-*/
