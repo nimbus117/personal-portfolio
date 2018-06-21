@@ -1,4 +1,4 @@
-//	all modal IDs, for external links
+// all modal IDs, for external links
 modalIds = [];
 
 // generate html for blog cards/modals, uses blogContent from data-blog.js
