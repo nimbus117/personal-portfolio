@@ -13,8 +13,8 @@
 // portfolio content
 var portContent = [
 	{
-		"guid": "fdb3fa03",
 		"title": "Twitch TV",
+		"guid": "fdb3fa03",
 		"date": "06/05/2018",
 		"image": "/images/fcc-twitchtv.png",
 		"alt": "freeCodeCamp twitchtv project",
@@ -22,8 +22,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/dezQaQ/"
 	},
 	{
-		"guid": "c9d7942f",
 		"title": "Wikipedia Viewer",
+		"guid": "c9d7942f",
 		"date": "02/05/2018",
 		"image": "/images/fcc-wiki-viewer.png",
 		"alt": "freeCodeCamp wikipedia viewer project",
@@ -31,8 +31,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/qYqRWW/"
 	},
 	{
-		"guid": "093b1b30",
 		"title": "Local Weather",
+		"guid": "093b1b30",
 		"date": "26/04/2018",
 		"image": "/images/fcc-local-weather.png",
 		"alt": "freeCodeCamp local weather project",
@@ -40,8 +40,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/MGebmP/"
 	},
 	{
-		"guid": "e4011d44",
 		"title": "Random Quote Machine",
+		"guid": "e4011d44",
 		"date": "24/04/2018",
 		"image": "/images/fcc-quote-machine.png",
 		"alt": "freeCodeCamp quote machine project",
@@ -49,8 +49,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/LmNyZV/"
 	},
 	{
-		"guid": "17caa23e",
 		"title": "Personal Portfolio",
+		"guid": "17caa23e",
 		"date": "06/04/2018",
 		"image": "/images/fcc-personal-portfolio.png",
 		"alt": "freeCodeCamp personal portfolio project",
@@ -58,8 +58,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/zWmqNj/"
 	},
 	{
-		"guid": "427d8d64",
 		"title": "Tribute Page",
+		"guid": "427d8d64",
 		"date": "05/04/2018",
 		"image": "/images/fcc-tribute-page.png",
 		"alt": "freeCodeCamp tribute page project",
@@ -67,8 +67,8 @@ var portContent = [
 		"link": "https://codepen.io/nimbus117/full/bvxgmO/"
 	},
 	{
+		"title": "zWindowsUpdate",
 		"guid": "b579e833",
-		"title": "zWindowsUpdate PowerShell module on the PowerShell Gallery",
 		"date": "29/03/2018",
 		"image": "/images/psgallery.png",
 		"alt": "powershell module",
@@ -76,8 +76,8 @@ var portContent = [
 		"link": "https://www.powershellgallery.com/packages/zWindowsUpdate/"
 	},
 	{
-		"guid": "6b0a602f",
 		"title": "Old Blog",
+		"guid": "6b0a602f",
 		"date": "06/07/2015",
 		"image": "/images/oldblog.png",
 		"alt": "my old simple blog built using jekll",
@@ -85,8 +85,8 @@ var portContent = [
 		"link": "/old-blog"
 	},
 	{
-		"guid": "6b0ec9f8",
 		"title": "Placeholder",
+		"guid": "6b0ec9f8",
 		"date": "01/01/1970",
 		"image": "/images/placeholder.png",
 		"alt": "placeholder-image",

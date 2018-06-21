@@ -14,8 +14,8 @@
 // blog content
 var blogContent = [
 	{
-		"guid": "7e932448",
 		"title": "Focus and Distractions",
+		"guid": "7e932448",
 		"date": "21/06/2018",
 		"text": [
 			"The last week or two I've had a bit of a problem with focus. I'd moved away from FreeCodeCamp and started working through The Odin Project. Shortly after FCC released a huge update to their site and courses and I was torn about what to do next. It's odd that such a simple thing threw me and I kind of lost momentum. So after a bit of flapping and being distracted by numerous other things (discussed below) I decided on a plan of action. I'm going to finish the TOP section I'm on (it covers some of the same online course as the CodeClan pre-course work) and then go back to FCC.",
@@ -30,8 +30,8 @@ var blogContent = [
 		]
 	},
 	{
-		"guid": "d324bae1",
 		"title": "Learning to Walk",
+		"guid": "d324bae1",
 		"date": "27/05/2018",
 		"text": [
 			"&quot;This could be your profession if you like solving logical problems, building useful things, and experimenting with new technologies. Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries&quot;",
@@ -44,8 +44,8 @@ var blogContent = [
 		]
 	},
 	{
-		"guid": "3627db73",
 		"title": "First Steps",
+		"guid": "3627db73",
 		"date": "18/05/2018",
 		"text": [
 			"Hello, welcome and thanks for visiting my site. This is the beginning of a new chapter in my life and I’m excited to see where it'll take me. I've not been in a great place the last couple of years, unfulfilling work, putting other people first and generally feeling that I’m missing something. So it's time to change things.",
