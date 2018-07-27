@@ -92,14 +92,5 @@ var portContent = [
 		"alt": "my old simple blog built using jekll",
 		"caption": "My first go at building a blog a few years ago. I built it using <a href='https://jekyllrb.com/' target='_blank'>jekyll</a> and like this page it's hosted in AWS S3.",
 		"link": "/old-blog"
-	},
-	{
-		"title": "Placeholder",
-		"guid": "6b0ec9f8",
-		"date": "01/01/1970",
-		"image": "/images/placeholder.png",
-		"alt": "placeholder-image",
-		"caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation",
-		"link": "https://www.google.com"
 	}
 ];
