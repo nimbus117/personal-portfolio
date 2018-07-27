@@ -13,6 +13,15 @@
 // portfolio content
 var portContent = [
 	{
+		"guid": "9cad424c",
+		"title": "CodeClan Pre-Course",
+		"date": "27/07/2018",
+		"image": "/images/cc-precourse-site.png",
+		"alt": "codeclan pre-course work website",
+		"caption": "Part of the <a href='https://codeclan.com' target='_blank'>CodeClan</a> pre-course work. Create a simple website about yourself and style it a little.",
+		"link": "https://nimbus117.github.io/"
+	},
+	{
 		"title": "Twitch TV",
 		"guid": "fdb3fa03",
 		"date": "06/05/2018",
