@@ -1,7 +1,7 @@
 /*
 	{
-		"guid": "",
 		"title": "",
+		"guid": "",
 		"date": "",
 		"text": [
 			"",
@@ -13,6 +13,18 @@
 
 // blog content
 var blogContent = [
+	{
+		"title": "An End and a Beginning",
+		"guid": "b6e49155",
+		"date": "28/07/2018",
+		"text": [
+			"Oh my god I'm staring at CodeClan tomorrow!! It's been an emotional few weeks, I met my CodeClan cohort and said goodbye to my colleagues of the last 4 years. I'll miss them and learnt a lot from my time working along side some good people but, at the end of the day, I wasn't happy at work and since leaving I've felt happier and more excited than I have done in a long time. I thought I might have doubts or worry I'd made the wrong decision but so far everything has made me more and more sure I'm doing the right thing for me.",
+			"The last 2 weeks I've been meeting up with a handful of the students on the course to go through the pre-course work together. It's been great spending time with people who are motivated to do something new and who share similar interests. For the most part we've been working through Codecademy courses on html/CSS and Ruby. I'm still not sure about Ruby, I like how readable it is but I've been getting frustrated with how many ways there are of doing the same thing. Maybe it's just me but I struggle when presented with too much choice. If I need to do something I like to know the best (or at least a good) way of doing it, with Ruby there area usually multiple possibilities with no clear way to decide which one to use. I guess this is down to my lack of experience and things will hopefully become more obvious with more practice.",
+			"One of the things that has surprised me while doing the pre-course work (and while working through FreeCodeCamp) was how much I enjoyed and how interesting I found html and CSS to be. I assumed I'd just get through the basics and move in to the more <em>interesting</em> Ruby/JavaScript tutorials but I was wrong. It's very satisfying to structure a page and style it (very simply at this point). It's something I'm really looking forward to about the course, the opportunity to be exposed to things I wouldn't necessarily chose to do myself and hopefully there will be more and more pleasant surprises as I find out what parts of programming/development I enjoy and what I'll chose to do in the end",
+			"Up to this point it's been petty simple. Lots of basic coding practice and getting used to the Mac. I can't wait to start on more in depth concepts and hopefully begin to build actual programs/applications that do something useful. I'm sure it'll be difficult and there will be times I just don't get something but that's all part of learning anything. Oddly I'm really looking forward to the problems, errors and bugs. Fixing something is a great way to lean how it works and so far this has been the only real bug I've had to deal with. How the hell did it get under the screen?!<video width='320' height='240' controls muted style='display: block; margin: auto;'><source src='/videos/bug.mp4' type='video/mp4'>Your browser does not support the video tag.</video>",
+			"With the bus timetable checked, lunch prepared and this post written, it's time for an episode of Killjoys before an early night, ready for the beginning of the next phase in my life. Good night!"
+		]
+	},
 	{
 		"title": "Focus and Distractions",
 		"guid": "7e932448",
