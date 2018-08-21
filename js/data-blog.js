@@ -14,6 +14,24 @@
 // blog content
 var blogContent = [
 	{
+		"title": "CodeClan Week03",
+		"guid": "f1521dfa",
+		"date": "20/08/2018",
+		"text": [
+			"Three weeks done and it's all just a blur, a brilliant blur! I’m learning loads, it’s amazing how much, but time is just rushing by and looking back it's hard to separate out the days. Last week was all about databases, using them, combining that with what we’ve already learned in ruby and a couple other new concepts to grasp.",
+			"The first new concept was MVC (Model, View, Controller). MVC is a commonly used pattern in software design that splits the application into 3 parts:",
+			"<ul><li>Models - The actual functionality of the app</li><li>Views - The user interface (the parts the user interacts with)</li><li>Controllers - The part that binds the models and views together</li></ul>",
+			"We’ve only really covered models in detail (classes and functions). Views in this case will be HTML and CSS, which we briefly covered in the pre-course work, but we haven't looked at tying views in with models yet. Controllers will be coming in week four and I can’t wait to see the whole thing put together. So with MVC mostly covered we went onto the bit behind pretty much every website and application, databases.",
+			"Databases are simply for storing data. To do anything useful though you need to be able to manipulate that data in some way. Enter Structured Query Language (SQL). SQL is a language you can use to query a database. With my background in ops I had worked with SQL servers a lot but, other than the odd query given to me by a DBA to run, I’d never worked with the data in a database. Data is stored in tables and there can be many tables in a database. A table is like a spreadsheet, they have a name that describes the type of thing that you’re storing (say pizza), they have columns that represent something about the thing (toppings, size, calories) and they have rows which are the actual data you want stored (pepperoni, large, too many). There’s essentially 4 things you can do with data in a database and that leads to a fantastic acronym, CRUD!",
+			"<ul><li>Create - Put data in</li><li>Read - Get data out</li><li>Update - Change the data</li><li>Delete - Remove the data</li></ul>",
+			"A lot of the week involved creating databases/tables and then using CRUD operations to interact with the data in some way. Tying this in with ruby was a lot of fun and I really began to see things coming together in terms of building an actual working application. It didn’t stop there though! One of the really neat things about databases is the associations you can make between the data in different tables. These come in 3 types; one-to-one associations, one-to-many and many-to-many. Going back to the pizza example you could use these to associate a pizza table with an ingredients table, pizzas with orders and orders with customers and so on. It did get a little confusing at this point, joining multiple tables together then realising I’d massively over complicated things, but that’s half the fun and getting to try things out is the best way to learn anyway.",
+			"The last new thing we covered was class methods. Up to this point we were creating objects of a given type and using instance methods (customer.buy_pizza) but what if you want to get a list of all the pizzas? It doesn’t make sense to create an instance of the pizza class to then get a list of pizzas. I thought this was a pretty cool thing when we were first shown. Why not call a method directly from the Pizza class (Pizza.get_all). Boom!",
+			"There’s still loads to go and I can’t wait to see more of the pieces come together but I have to keep reminding myself how much I’ve already learned and how, with a few simple components some pretty complex capabilities can emerge.",
+			"The highlights from week 3 we’re definitely the weekend homework, where we got to put everything we’d learnt together and also the realisation I could actually start making simple, useful applications. We’ve been playing a few games of Potato Pirates each week and it dawned on me I could create a database and write a little ruby code to create a command line application for tracking who wins each game. I’ve got to admit I was pretty proud of it and it actually has a real world use.",
+			"<img class='img-thumbnail' src='images/cc-potato-pirates-app.png' alt='Terminal showing the potato pirates leaderboard and some of the code'>"
+		]
+	},
+	{
 		"title": "CodeClan Week02",
 		"guid": "2235e867",
 		"date": "12/08/2018",
