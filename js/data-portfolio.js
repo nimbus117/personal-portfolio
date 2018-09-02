@@ -13,6 +13,15 @@
 // portfolio content
 var portContent = [
 	{
+		"guid": "ab3c649e",
+		"title": "CodeClan Project1",
+		"date": "02/09/2018",
+		"image": "/images/cc-project1.png",
+		"alt": "codeclan project1, shop inventory app",
+		"caption": "My first project at CodeClan! The brief was to create an app to allow shop keepers to track their inventory. The app was written in Ruby, following the MVC architectural pattern, using the Sinatra library. Postgres was used for the database.",
+		"link": "http://s2.nimbus117.co.uk"
+	},
+	{
 		"guid": "9cad424c",
 		"title": "CodeClan Pre-Course",
 		"date": "27/07/2018",
