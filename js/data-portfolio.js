@@ -13,6 +13,15 @@
 // portfolio content
 var portContent = [
 	{
+		"guid": "0587d27b",
+		"title": "Ghibli Graphs",
+		"date": "16/09/2018",
+		"image": "/images/cc-ghibli-hw.png",
+		"alt": "Website using Highcharts to show information on Studio Ghibli films",
+		"caption": "This was the weekend homework for CodeClan week 7. Create a JavaScript application using Pub/Sub and API requests. I used an open API providing data on <a href='https://ghibliapi.herokuapp.com/'>Studio Ghibli films</a> and the Highcharts npm module.",
+		"link": "http://nimbus117.co.uk/other/ghibli"
+	},
+	{
 		"guid": "ab3c649e",
 		"title": "CodeClan Project1",
 		"date": "02/09/2018",
