@@ -14,6 +14,19 @@
 // blog content
 var blogContent = [
   {
+    "title": "CodeClan Week06",
+    "guid": "ec02d202",
+    "date": "01/10/2018",
+    "text": [
+      "The next few posts are long overdue, I’ve had them mostly written for a while but things, as they do, kept coming up. I’ll hopefully get a couple out over the next few days. In summary, It’s been non stop JavaScript for the last few weeks. Two weeks of frontend (which I’ll write about in this post and the next) followed by a week of backend then projects (which I’ll cover soon after). I’d learned a bit of JavaScript from online courses before and really enjoyed it so was looking forward to learning more. It’s amazing how only after a few days I understood more about the fundamentals then after a few months online. There are pros and cons to both but for me, the way the CodeClan course structure covers the basics and builds on itself and the multiple instructors you can question, really makes sure you have a good understanding of the content.",
+      "So, week 6 began and after 5 weeks of Ruby we dove headfirst into JavaScript! Created in 1995 by a guy called Brendan Eich, it was originally designed to make websites more dynamic and interactive but has since grown beyond the frontend and is used server-side, for mobile apps, in games and a whole bunch of other places. Day 1 of JavaScript was incredible compared to Ruby. Not the languages themselves, but the fact that we all understood the basic concepts from learning Ruby meant picking up a new language was much simpler and faster. By the end of the day we’d probably covered the same things it took us a week to cover way back in week 1!",
+      "After objects, arrays, loops, functions, scope and an intro to Node.js we were ready to jump into a familiar OO concept, classes! Except JavaScript doesn’t really have classes, well it does now but didn’t originally, so we learned about constructor functions which let us do pretty much the same thing as classes. Cool, so we can create objects using constructors and have covered the basic syntax of JavaScript, sounds like it’s time to start making some basic apps, but first… TDD! Very much the same as Minitest in Ruby we used the Mocha npm module to run our unit tests.",
+      "The next 2 days were where things really started diverging from what we’d done in Ruby. Things had been pretty easy and familiar then suddenly, higher-order functions, callbacks and event-driven programming!!! It was quite tough all of a sudden and there was one day the whole cohort got pretty grumpy. But after a few days it all began to sink in. Event-driven programming is a programming style where the flow of an application is controlled by events, such as when a user clicks on a button. The functions used to create a listener for an event can take a callback as an argument and then that callback function will be executed when the event is triggered.",
+      "We wrapped up week 6 with an intro to the Document Object Model (DOM). The DOM is both a tree like representation of the current web page and a collection of methods and properties that you can use to manipulate the tree in different ways. It’s essentially an interface provided by the browser that, combined with JavaScript, let’s you do pretty much anything to the page. Putting what I’d learned from the first week of JavaScript together in the weekend homework was a lot of fun and very satisfying. In the space of a week I could create a single page app whose content you could dynamically update. Pretty chuffed!",
+      "<img class='img-thumbnail' src='images/cc-week6-wkhw.png' alt=''>"
+    ]
+  },
+  {
     "title": "CodeClan Week04/05",
     "guid": "3c859d5b",
     "date": "09/09/2018",
