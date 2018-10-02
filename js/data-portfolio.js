@@ -13,6 +13,15 @@
 // portfolio content
 var portContent = [
 	{
+		"guid": "1096e41c",
+		"title": "CodeClan Project2",
+		"date": "27/09/2018",
+		"image": "/images/cc-project2.png",
+		"alt": "codeclan project2, countries educational app",
+		"caption": "This was the second project at CodeClan and the first group project. The briefs were pretty open this time and we decided on an educational app. The app was written in JavaScrpt, following the PubSub paradigm and uses the RESTcountries and Wikipedia APIs.",
+		"link": "http://nimbus117.co.uk/other/countries/"
+	},
+	{
 		"guid": "0587d27b",
 		"title": "Ghibli Graphs",
 		"date": "16/09/2018",
