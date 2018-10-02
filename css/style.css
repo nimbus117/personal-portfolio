@@ -1,211 +1,211 @@
 ::-webkit-scrollbar {
-	width: 0px;
-	background: transparent;
+    width: 0px;
+    background: transparent;
 }
 
 :root {
-	--primary-dark: #003654; /* #003654 */
-	--primary-light: #AED4FB;
-	--secondary-dark: #FFECCC;
-	--secondary-light: white;
+    --primary-dark: #003654; /* #003654 */
+    --primary-light: #AED4FB;
+    --secondary-dark: #FFECCC;
+    --secondary-light: white;
 
-	/*
-	--primary: #002b36;
-	--secondary: #fdf6e3;
-	--grey: #657b83;
-	--blue: #268bd2;
-	*/
+    /*
+    --primary: #002b36;
+    --secondary: #fdf6e3;
+    --grey: #657b83;
+    --blue: #268bd2;
+    */
 }
 
 html, body {
-	height:100%;
+    height: 100%;
 }
 
-body { 
-	position: relative;
-	font-family: "Roboto", sans-serif;
-	overflow: scroll;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	background-color: var(--secondary-dark);
+body {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: var(--secondary-dark);
 }
 
 .navbar, .jumbotron, .pfolio-card {
-	background-color: var(--primary-dark);
+    background-color: var(--primary-dark);
 }
 
 .navbar span {
-	color: var(--secondary-light);
+    color: var(--secondary-light);
 }
 
 .navbar-brand img {
-	height: 24px;
+    height: 24px;
 }
 
 hr {
-	display: block;
-	position: relative;
-	padding: 0;
-	margin: 8px auto;
-	height: 0;
-	width: 100%;
-	max-height: 0;
-	font-size: 1px;
-	line-height: 0;
-	clear: both;
-	border: none;
-	border-top: 1px solid var(--primary-dark);
-	border-bottom: 1px solid var(--primary-dark);
-	margin-bottom: 20px;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 100%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 1px solid var(--primary-dark);
+    border-bottom: 1px solid var(--primary-dark);
+    margin-bottom: 20px;
 }
 
-.modal-header, 
+.modal-header,
 .modal-content,
-.img-thumbnail, 
+.img-thumbnail,
 .card, .card-header {
-	border-radius: 0px !important;
+    border-radius: 0px !important;
 }
 
 .card, .modal-content {
-	border: var(--primary-dark) solid 3px;
-	background-color: var(--secondary-light);
+    border: var(--primary-dark) solid 3px;
+    background-color: var(--secondary-light);
 }
 
 .card {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .card-header {
-	background-color: var(--primary-dark);
-	color: var(--secondary-light);
-	margin-bottom: 0px;
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    margin-bottom: 0px;
 }
 
 .card-pfolio-link {
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 .card-pfolio-link:hover {
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .card-caption-text {
-	margin: 3px;
+    margin: 3px;
 }
 
 .card-blog-link {
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
-	text-decoration: none;
-	color: black;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+    color: black;
 }
 
 .card-blog-link:hover {
-	text-decoration: none;
-	color: var(--secondary-light);
-	background-color: var(--primary-dark);
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+    text-decoration: none;
+    color: var(--secondary-light);
+    background-color: var(--primary-dark);
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .img-thumbnail {
-	background-color: var(--primary-dark);
-	color: var(--secondary-light);
-	padding:0px;
-	margin:0;
-	border: none;
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    padding: 0px;
+    margin: 0;
+    border: none;
 }
 
 .modal .img-thumbnail {
-	border: var(--primary-dark) solid 3px;
+    border: var(--primary-dark) solid 3px;
 }
 
 .fa {
-	-o-transition:.5s;
-	-ms-transition:.5s;
-	-moz-transition:.5s;
-	-webkit-transition:.5s;
-	transition:.5s;
-	margin: 50px;
-	font-size: 50px;
-	color: var(--primary-light);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    margin: 50px;
+    font-size: 50px;
+    color: var(--primary-light);
 }
 
 .fa:hover {
-	text-decoration: none;
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+    text-decoration: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .modal-header, .modal-header span {
-	background-color: var(--primary-dark);
-	color: var(--primary-light);
+    background-color: var(--primary-dark);
+    color: var(--primary-light);
 }
 
 .modal-image {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .my-btn {
-	transition: 0.5s;
-	padding: 5px;
-	display: block;
-	text-align: center;
-	text-decoration: none;
-	color: var(--primary-dark);
-	border: 1px solid var(--primary-dark);
+    transition: 0.5s;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary-dark);
+    border: 1px solid var(--primary-dark);
 }
 
 .my-btn:hover {
-	background-color: var(--primary-dark);
-	color: var(--secondary-light);
-	text-decoration: none;
+    background-color: var(--primary-dark);
+    color: var(--secondary-light);
+    text-decoration: none;
 }
 
 #logo {
-	max-height: 200px;
+    max-height: 200px;
 }
 
 #header-primary {
-	color: var(--primary-light);
+    color: var(--primary-light);
 }
 
 #header-secondary {
-	color: var(--secondary-light);
+    color: var(--secondary-light);
 }
 
 #about {
-	padding-top: 50px;
-	padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #portfolio {
-	margin-bottom:30px;
-	padding-top: 80px;
-	margin-top: -80px;
-	min-height: 100%;
+    margin-bottom: 30px;
+    padding-top: 80px;
+    margin-top: -80px;
+    min-height: 100%;
 }
 
 #blog {
-	margin-bottom:30px;
-	padding-top: 80px;
-	margin-top: -80px;
+    margin-bottom: 30px;
+    padding-top: 80px;
+    margin-top: -80px;
 }
 
 #contact {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 @media only screen and (max-device-width: 480px) {
-	#about {
-		min-height: 100%;
-	}
+    #about {
+        min-height: 100%;
+    }
 }

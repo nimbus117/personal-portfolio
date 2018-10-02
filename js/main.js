@@ -4,12 +4,12 @@ modalIds = [];
 // generate html for blog cards/modals, uses blogContent from data-blog.js
 var blogHtml = "";
 blogContent.forEach(function (item, index) {
-	modalIds.push("#" + item.guid);
-	var paragraphs = "";
-	item.text.forEach(function (paragraph) {
-		paragraphs += `<p>${paragraph}</p>`
-	});
-	blogHtml += `
+    modalIds.push("#" + item.guid);
+    var paragraphs = "";
+    item.text.forEach(function (paragraph) {
+        paragraphs += `<p>${paragraph}</p>`
+    });
+    blogHtml += `
 		<div class="col-lg-6">
 			<div class="card">
 				<div class="card-header">
@@ -45,8 +45,8 @@ blogContent.forEach(function (item, index) {
 // generate html for portfolio cards/modals, uses portContent from data-portfolio.js
 var portHtml = "";
 portContent.forEach(function (item) {
-	modalIds.push("#" + item.guid);
-	portHtml += `
+    modalIds.push("#" + item.guid);
+    portHtml += `
 		<div class="col-sm-6 col-lg-4">
 			<div class="card pfolio-card">
 				<div class="img-thumbnail">
@@ -81,30 +81,30 @@ portContent.forEach(function (item) {
 
 
 $(document).ready(function () {
-	// set content of #portfolio-row
-	document.getElementById("portfolio-row").innerHTML = portHtml;
-	// set content of #blog-row
-	document.getElementById("blog-row").innerHTML = blogHtml;
-	// enable scrollspy
-	$("body").scrollspy({ target: ".navbar" })
-	// scroll for navbar links
-	$(".navbar a").on("click", function (event) {
-		if (this.hash !== "") {
-			event.preventDefault();
-			var hash = this.hash;
-			$("html, body").animate({
-				scrollTop: $(hash).offset().top
-			}, 800, function () {
-				window.location.hash = hash;
-			});
-		}
-	});
-	// collape navbar on click
-	$(".navbar-collapse a").click(function () {
-		$(".navbar-collapse").collapse("hide");
-	});
-	// external link to modal
-	if (window.location.hash && modalIds.includes(window.location.hash)) {
-		$(window.location.hash).modal();
-	}
+    // set content of #portfolio-row
+    document.getElementById("portfolio-row").innerHTML = portHtml;
+    // set content of #blog-row
+    document.getElementById("blog-row").innerHTML = blogHtml;
+    // enable scrollspy
+    $("body").scrollspy({target: ".navbar"})
+    // scroll for navbar links
+    $(".navbar a").on("click", function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
+    // collape navbar on click
+    $(".navbar-collapse a").click(function () {
+        $(".navbar-collapse").collapse("hide");
+    });
+    // external link to modal
+    if (window.location.hash && modalIds.includes(window.location.hash)) {
+        $(window.location.hash).modal();
+    }
 });
